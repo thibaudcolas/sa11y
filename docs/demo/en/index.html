@@ -20,6 +20,100 @@
 </head>
 
 <body>
+	<style>
+		.wagtail-userbar-reset{--w-font-sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Roboto,"Helvetica Neue",Arial,sans-serif,Apple Color Emoji,"Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";all:initial}.wagtail-userbar{border:0;display:block;font-size:medium!important;height:auto;line-height:normal;margin:0;padding:0;position:fixed;width:auto;z-index:9999}.wagtail-userbar-icon{height:2em;vertical-align:text-top;width:2em}@media print{.wagtail-userbar{display:none}}.wagtail-userbar-trigger{all:initial;align-items:center;background-color:#fff;border:2px solid #0000;border-radius:50%;box-shadow:0 0 1px 0 #6bd6e6,0 1px 10px 0 #6bd6e6b3;color:#000;cursor:pointer;display:flex;font-size:16px;height:3.5em;justify-content:center;margin:0!important;overflow:hidden;padding:0!important;position:relative;text-decoration:none!important;transition:all .2s ease-in-out;width:3.5em}.wagtail-userbar-trigger .wagtail-userbar-help-text{clip:rect(0 0 0 0);clip-path:inset(50%);height:1px;overflow:hidden;position:absolute;white-space:nowrap;width:1px}.wagtail-userbar-trigger .wagtail-icon:before{font-size:32px;margin:0;transition:color .2s ease;width:auto}.wagtail-userbar-trigger:focus{outline:3px solid #ffbf47}.wagtail-userbar-items{all:revert;box-sizing:border-box;display:block;font-family:var(--w-font-sans);font-size:14px;list-style:none;margin:0;min-width:210px;padding-inline-start:0;position:absolute;text-decoration:none;visibility:hidden}.wagtail-userbar.is-active .wagtail-userbar-items{visibility:visible}.wagtail-userbar-items:after{border:.6em solid #0000;content:"";height:0;opacity:0;position:absolute;transition-duration:.15s;transition-timing-function:cubic-bezier(.55,0,.1,1);width:0}@media(prefers-reduced-motion:reduce){.wagtail-userbar-items:after{transition:none!important}}.wagtail-userbar.is-active .wagtail-userbar-items:after{opacity:1;transform:translateY(0);transition-delay:.3s}.wagtail-userbar-nav{background:#0000!important;display:block!important;margin:0!important;padding:0}.wagtail-userbar-nav .wagtail-action{background:#0000}.wagtail-userbar__item{all:revert;background-color:#262626;font-family:var(--w-font-sans);font-size:16px!important;margin:0;opacity:0;overflow:hidden;text-decoration:none!important;transition-duration:.125s;transition-timing-function:cubic-bezier(.55,0,.1,1)}@media(prefers-reduced-motion:reduce){.wagtail-userbar__item{transition:none!important;transition-delay:0s!important}}.wagtail-userbar__item:first-child{border-start-end-radius:6px;border-start-start-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px}.wagtail-userbar__item:last-child{border-bottom-left-radius:6px;border-bottom-right-radius:6px;border-end-end-radius:6px;border-end-start-radius:6px}.wagtail-userbar__item+.wagtail-userbar__item{border-top:1px solid #000}.wagtail-userbar__item .wagtail-action,.wagtail-userbar__item a{color:#fff;display:block;font-size:14px!important;margin:0!important;text-decoration:none!important;transform:none!important;transition:none!important}.wagtail-userbar__item .wagtail-action:focus,.wagtail-userbar__item .wagtail-action:hover,.wagtail-userbar__item a:focus,.wagtail-userbar__item a:hover{background-color:#64646426;color:#fff}.wagtail-userbar__item .wagtail-action:focus,.wagtail-userbar__item a:focus{outline:3px solid #ffbf47}.wagtail-userbar__item .wagtail-action-icon,.wagtail-userbar__item a-icon{fill:currentColor;height:1.1em;margin-inline-end:.5em;vertical-align:middle;width:1.1em}.wagtail-userbar__item .wagtail-icon{position:relative}.wagtail-userbar__item .wagtail-icon:before{inset-inline-start:14px;position:absolute;top:50%;transform:translateY(-50%)}.wagtail-userbar__item a,.wagtail-userbar__item button{font-size:14px!important;padding:.8em;text-align:start}.wagtail-userbar__item button{background-color:initial;border:0;outline:none;width:100%}@media(forced-colors:active){.wagtail-userbar-icon{fill:LinkText}}.wagtail-userbar--top-left{left:2em;top:2em}.wagtail-userbar--top-left .wagtail-userbar-items{left:0;padding-top:1.2em;top:100%}.wagtail-userbar--top-left .wagtail-userbar-nav .wagtail-userbar__item{transform:translateY(-1em)}.wagtail-userbar--top-left .wagtail-userbar-items:after{border-bottom-color:#262626;left:1.45em;top:2px;transform:translateY(.6em)}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:first-child{transition-delay:.05s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(2){transition-delay:.1s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(3){transition-delay:.15s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(4){transition-delay:.2s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(5){transition-delay:.25s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(6){transition-delay:.3s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(7){transition-delay:.35s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(8){transition-delay:.4s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(9){transition-delay:.45s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(10){transition-delay:.5s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(11){transition-delay:.55s}.wagtail-userbar--top-left.is-active .wagtail-userbar__item:nth-child(12){transition-delay:.6s}.wagtail-userbar--top-right{right:2em;top:2em}.wagtail-userbar--top-right .wagtail-userbar-items{padding-top:1.2em;right:0;top:100%}.wagtail-userbar--top-right .wagtail-userbar-nav .wagtail-userbar__item{transform:translateY(-1em)}.wagtail-userbar--top-right .wagtail-userbar-items:after{border-bottom-color:#262626;right:1.45em;top:2px;transform:translateY(.6em)}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:first-child{transition-delay:.05s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(2){transition-delay:.1s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(3){transition-delay:.15s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(4){transition-delay:.2s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(5){transition-delay:.25s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(6){transition-delay:.3s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(7){transition-delay:.35s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(8){transition-delay:.4s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(9){transition-delay:.45s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(10){transition-delay:.5s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(11){transition-delay:.55s}.wagtail-userbar--top-right.is-active .wagtail-userbar__item:nth-child(12){transition-delay:.6s}.wagtail-userbar--bottom-left{bottom:2em;left:2em}.wagtail-userbar--bottom-left .wagtail-userbar-items{bottom:100%;left:0;padding-bottom:1.2em}.wagtail-userbar--bottom-left .wagtail-userbar-nav .wagtail-userbar__item{transform:translateY(1em)}.wagtail-userbar--bottom-left .wagtail-userbar-items:after{border-top-color:#262626;bottom:2px;left:1.45em;transform:translateY(-.6em)}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:last-child{transition-delay:.05s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(2){transition-delay:.1s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(3){transition-delay:.15s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(4){transition-delay:.2s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(5){transition-delay:.25s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(6){transition-delay:.3s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(7){transition-delay:.35s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(8){transition-delay:.4s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(9){transition-delay:.45s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(10){transition-delay:.5s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(11){transition-delay:.55s}.wagtail-userbar--bottom-left.is-active .wagtail-userbar__item:nth-last-child(12){transition-delay:.6s}.wagtail-userbar--bottom-right{bottom:2em;right:2em}.wagtail-userbar--bottom-right .wagtail-userbar-items{bottom:100%;padding-bottom:1.2em;right:0}.wagtail-userbar--bottom-right .wagtail-userbar-nav .wagtail-userbar__item{transform:translateY(1em)}.wagtail-userbar--bottom-right .wagtail-userbar-items:after{border-top-color:#262626;bottom:2px;right:1.45em;transform:translateY(-.6em)}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:last-child{transition-delay:.05s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(2){transition-delay:.1s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(3){transition-delay:.15s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(4){transition-delay:.2s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(5){transition-delay:.25s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(6){transition-delay:.3s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(7){transition-delay:.35s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(8){transition-delay:.4s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(9){transition-delay:.45s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(10){transition-delay:.5s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(11){transition-delay:.55s}.wagtail-userbar--bottom-right.is-active .wagtail-userbar__item:nth-last-child(12){transition-delay:.6s}.wagtail-userbar.is-active .wagtail-userbar__item{opacity:1;transform:translateY(0)}
+
+		/* Custom */
+		.wagtail-userbar__item--sa11y {
+			min-height: 90px;
+		}
+
+		.wagtail-userbar__item {
+			overflow: visible;
+		}
+
+		.wagtail-userbar-trigger {
+			overflow: visible;
+		}
+
+		#new-count {
+			justify-content: center !important;
+			align-items: center !important;
+			background-color: #EB0000;
+			border-radius: 100px !important;
+			color: #ffffff;
+			line-height: 22px;
+			height: 20px !important;
+			position: absolute !important;
+			right: -3px !important;
+			top: -3px !important;
+			width: 20px !important;
+		}
+	</style>
+	<div class="wagtail-userbar-reset">
+		<div class="wagtail-userbar wagtail-userbar--bottom-right" data-wagtail-userbar="">
+			<div class="wagtail-userbar-nav">
+				<button
+					aria-controls="wagtail-userbar-items"
+					aria-haspopup="true"
+					class="wagtail-userbar-trigger"
+					id="wagtail-userbar-trigger"
+					data-wagtail-userbar-trigger=""
+					aria-expanded="false"
+				>
+					<div style="display: none">
+						<svg>
+							<defs>
+								<symbol id="icon-wagtail-icon" viewBox="0 0 16 16"><path d="M12.324 2.539c0 0.152-0.114 0.303-0.303 0.303-0.152 0-0.303-0.152-0.303-0.303 0-0.19 0.152-0.303 0.303-0.303 0.19 0 0.303 0.114 0.303 0.303zM12.437 5.421c0 0-0.417-1.896-2.92-1.403-0.228-0.872-0.19-1.517 0.341-2.086 0.759-0.796 1.972-0.379 1.972-0.379v-0.645c-0.417-0.19-0.834-0.228-1.252-0.228-1.631 0-2.541 1.214-2.92 2.048l-4.513 8.306 1.289-0.228-2.351 4.513 1.631-0.303 1.252-3.527c3.527 0 8.078-1.289 7.471-6.068zM13.954 3.828l-0.986-0.986-0.796 0.986zM5.535 10.465c0 0 0.152-0.038 0.341-0.076 0.19-0.076 0.493-0.114 0.834-0.228 0.19-0.038 0.379-0.114 0.569-0.152 0.19-0.076 0.417-0.152 0.607-0.228 0.228-0.114 0.417-0.19 0.607-0.303 0.228-0.114 0.417-0.265 0.607-0.379 0.038-0.038 0.114-0.076 0.152-0.114l0.114-0.114c0.114-0.114 0.19-0.19 0.265-0.265s0.152-0.19 0.228-0.265c0.038-0.038 0.076-0.076 0.114-0.152l0.038-0.076 0.038-0.038c0.038-0.076 0.076-0.114 0.076-0.152 0.038-0.038 0.076-0.114 0.076-0.152 0.038-0.038 0.038-0.038 0.038-0.076 0.038 0 0.038-0.038 0.038-0.076 0.038-0.038 0.038-0.076 0.076-0.114 0.038-0.114 0.076-0.19 0.114-0.303 0-0.076 0.038-0.152 0.076-0.265 0-0.076 0.038-0.152 0.038-0.228s0.038-0.152 0.038-0.228c0-0.076 0.038-0.152 0.038-0.228 0-0.038 0-0.114 0-0.152 0-0.19 0.038-0.341 0.038-0.341l0.19 0.038c0 0-0.038 0.114-0.038 0.303 0 0.076-0.038 0.114-0.038 0.19s0 0.152-0.038 0.19c0 0.076 0 0.152-0.038 0.265 0 0.076-0.038 0.152-0.038 0.228-0.038 0.114-0.076 0.19-0.114 0.303-0.038 0.076-0.076 0.19-0.114 0.265 0 0.038-0.038 0.114-0.076 0.152 0 0.038 0 0.038-0.038 0.076 0 0.038 0 0.038-0.038 0.076 0 0.038-0.038 0.076-0.076 0.152-0.038 0.038-0.038 0.076-0.076 0.114s-0.038 0.076-0.038 0.076l-0.076 0.076c-0.038 0.038-0.076 0.114-0.114 0.152-0.076 0.076-0.152 0.19-0.228 0.265s-0.152 0.152-0.265 0.265l-0.114 0.114c-0.076 0.038-0.114 0.038-0.152 0.076-0.228 0.152-0.417 0.303-0.645 0.417-0.19 0.076-0.417 0.19-0.607 0.265-0.228 0.076-0.417 0.152-0.645 0.228-0.19 0.038-0.379 0.114-0.569 0.152-0.341 0.076-0.645 0.152-0.834 0.19s-0.341 0.076-0.341 0.076z"></path></symbol>
+								<symbol id="icon-folder-open-inverse" viewBox="0 0 16 16"><path d="M14.729 8.912c0 0.137-0.082 0.302-0.22 0.494l-2.472 2.884c-0.192 0.247-0.494 0.467-0.879 0.632-0.385 0.192-0.714 0.275-1.044 0.275h-7.965c-0.165 0-0.33-0.027-0.439-0.11-0.137-0.055-0.22-0.165-0.22-0.302 0-0.165 0.082-0.33 0.247-0.494l2.444-2.884c0.22-0.275 0.522-0.467 0.879-0.659 0.385-0.165 0.742-0.247 1.071-0.247h7.965c0.165 0 0.302 0.027 0.439 0.082 0.137 0.082 0.192 0.192 0.192 0.33zM12.23 6.385v1.181h-6.097c-0.467 0-0.934 0.11-1.456 0.357-0.494 0.22-0.906 0.522-1.208 0.851l-2.444 2.911-0.055 0.055c0-0.027 0-0.055 0-0.11 0-0.027 0-0.055 0-0.082v-7.031c0-0.439 0.165-0.824 0.494-1.154 0.302-0.33 0.687-0.494 1.154-0.494h2.335c0.439 0 0.824 0.165 1.154 0.494s0.494 0.714 0.494 1.154v0.22h3.983c0.439 0 0.824 0.165 1.154 0.494s0.494 0.714 0.494 1.154z"></path></symbol>
+								<symbol id="icon-edit" viewBox="0 0 16 16"><path d="M12.12 1.008l-0.876 0.94 2.501 2.33 0.876-0.94-2.501-2.33zM10.667 2.568l-8.592 9.234 2.501 2.33 8.592-9.234-2.501-2.33zM1.626 12.55l-0.192 2.458 2.437-0.363-2.244-2.095z"></path></symbol>
+								<symbol id="icon-plus" viewBox="0 0 16 16"><path d="M13.889 6.652v1.611c0 0.234-0.088 0.41-0.234 0.586-0.146 0.146-0.352 0.234-0.557 0.234h-3.486v3.457c0 0.234-0.088 0.439-0.234 0.586s-0.352 0.234-0.586 0.234h-1.582c-0.234 0-0.439-0.088-0.586-0.234s-0.234-0.352-0.234-0.586v-3.457h-3.486c-0.205 0-0.41-0.088-0.557-0.234-0.146-0.176-0.234-0.352-0.234-0.586v-1.611c0-0.205 0.088-0.41 0.234-0.557s0.352-0.234 0.557-0.234h3.486v-3.486c0-0.234 0.088-0.41 0.234-0.557 0.146-0.176 0.352-0.234 0.586-0.234h1.582c0.234 0 0.439 0.059 0.586 0.234 0.146 0.146 0.234 0.322 0.234 0.557v3.486h3.486c0.205 0 0.41 0.088 0.557 0.234s0.234 0.352 0.234 0.557z"></path></symbol>
+								<symbol id="icon-tick" viewBox="0 0 16 16"><path d="M14.906 4.563c0 0.219-0.063 0.438-0.25 0.594l-7.656 7.688c-0.188 0.156-0.375 0.25-0.625 0.25-0.219 0-0.438-0.094-0.594-0.25l-4.438-4.438c-0.188-0.188-0.25-0.375-0.25-0.625 0-0.219 0.063-0.438 0.25-0.594l1.188-1.219c0.188-0.156 0.375-0.25 0.625-0.25 0.219 0 0.438 0.094 0.594 0.25l2.625 2.625 5.875-5.875c0.156-0.156 0.375-0.25 0.594-0.25 0.25 0 0.438 0.094 0.625 0.25l1.188 1.219c0.188 0.188 0.25 0.375 0.25 0.625z"></path></symbol>
+								<symbol id="icon-cross" viewBox="0 0 16 16"><path d="M13.313 11.313c0 0.219-0.094 0.438-0.25 0.594l-1.219 1.219c-0.156 0.156-0.375 0.25-0.625 0.25-0.219 0-0.438-0.094-0.594-0.25l-2.625-2.625-2.625 2.625c-0.156 0.156-0.375 0.25-0.594 0.25-0.25 0-0.469-0.094-0.625-0.25l-1.219-1.219c-0.156-0.156-0.25-0.375-0.25-0.594 0-0.25 0.094-0.438 0.25-0.625l2.625-2.625-2.625-2.625c-0.156-0.156-0.25-0.375-0.25-0.594 0-0.25 0.094-0.438 0.25-0.625l1.219-1.188c0.156-0.188 0.375-0.25 0.625-0.25 0.219 0 0.438 0.063 0.594 0.25l2.625 2.625 2.625-2.625c0.156-0.188 0.375-0.25 0.594-0.25 0.25 0 0.469 0.063 0.625 0.25l1.219 1.188c0.156 0.188 0.25 0.375 0.25 0.625 0 0.219-0.094 0.438-0.25 0.594l-2.625 2.625 2.625 2.625c0.156 0.188 0.25 0.375 0.25 0.625z"></path></symbol>
+							</defs>
+						</svg>
+					</div>
+
+					<svg class="wagtail-userbar-icon" aria-hidden="true"><use href="#icon-wagtail-icon"></use></svg>
+
+					<span class="wagtail-userbar-help-text">View Wagtail quick actions</span>
+				</button>
+				<ul
+					aria-labelledby="wagtail-userbar-trigger"
+					class="wagtail-userbar-items"
+					id="wagtail-userbar-items"
+					role="menu"
+				>
+					<li class="wagtail-userbar__item" role="presentation">
+						<a href="/admin/" target="_parent" class="wagtail-userbar-link" role="menuitem" tabindex="-1">
+							<svg class="icon icon-wagtail-icon wagtail-action-icon" aria-hidden="true"><use href="#icon-wagtail-icon"></use></svg>
+							Go to Wagtail admin
+						</a>
+					</li>
+
+					<li class="wagtail-userbar__item" role="presentation">
+						<a href="/admin/pages/1/" target="_parent" role="menuitem" tabindex="-1">
+							<svg class="icon icon-folder-open-inverse wagtail-action-icon" aria-hidden="true"><use href="#icon-folder-open-inverse"></use></svg>
+							Show in Explorer
+						</a>
+					</li>
+					<li class="wagtail-userbar__item" role="presentation">
+						<a href="/admin/pages/60/edit/" target="_parent" role="menuitem" tabindex="-1">
+							<svg class="icon icon-edit wagtail-action-icon" aria-hidden="true"><use href="#icon-edit"></use></svg>
+							Edit this page
+						</a>
+					</li>
+					<!-- Customisation compared to vanilla userbar -->
+					<li class="wagtail-userbar__item wagtail-userbar__item--sa11y" role="presentation" data-sa11y-parent>
+						<a href="/admin/pages/60/add_subpage/" target="_parent" role="menuitem" tabindex="-1">
+							<svg class="icon icon-plus wagtail-action-icon" aria-hidden="true"><use href="#icon-plus"></use></svg>
+							Accessibility
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
   <header>
     <h2 hidden>Intentionally hidden heading</h2>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
